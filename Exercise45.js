@@ -7,4 +7,4 @@ const cars = (manufacturer, model_name, ...args) => {
     }
 }
 
-console.log(cars("honda", "cd-70", color="yellow"));
+console.log(cars("honda", "cd-70", color="yellow", optional_feature="headlights"));
